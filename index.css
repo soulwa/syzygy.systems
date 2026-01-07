@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background: #fff;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#content {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 20px;
+    width: 100vw;
+    max-width: 1000px;
+    min-height: 100vh;
+
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background: #fff;
+}
+
+#title {
+    max-width: 100%;
+}
+
+.subtitle {
+    font-size: 2em;
+    font-weight: 300;
+    text-align: center;
+    transform: scale(1, 1);
+}
+
+.sku {
+    color: #ccc
+}
+
+#events {
+    text-align: center;
+}
+
+#our-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#our-links a {
+    font-size: 2em;
+    font-weight: 300;
+    text-align: center;
+}
+
+.spacer {
+    height: 100px;
+}
